@@ -1,5 +1,5 @@
 .header {
-  height: 70px;
+  height: 7rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -8,7 +8,7 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
+    width: 7rem;
     padding: 25px;
     
     svg {
@@ -26,6 +26,7 @@
 
     .option {
       padding: 10px 15px;
+      cursor: pointer;
     }
   }
 }
