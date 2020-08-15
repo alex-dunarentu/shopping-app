@@ -1,7 +1,8 @@
 .sign-in {
-  width: 25vw;
+  min-width: 420px;
   display: flex;
   flex-direction: column;
+  margin:5rem 1rem;
   .title {
     margin: 2rem 0;
   }
