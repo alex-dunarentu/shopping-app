@@ -37,3 +37,8 @@
     cursor: pointer;
   }
 }
+@media (max-width: 40rem) {
+  .quantity {
+    justify-content: center;
+  }
+}

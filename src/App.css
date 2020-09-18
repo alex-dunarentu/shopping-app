@@ -10,3 +10,8 @@ a {
 * {
   box-sizing: border-box;
 }
+@media (max-width: 40rem) {
+  body {
+    padding: 0 10px;
+  }
+}

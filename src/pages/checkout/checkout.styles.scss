@@ -29,3 +29,27 @@
     font-size: 36px;
   }
 }
+
+@media (max-width: 40rem) {
+  .checkout-page {
+    width: 100%;
+  }
+  #Quantity {
+    text-align: center;
+  }
+  #Remove {
+    width: 16%;
+    text-align: center;
+  }
+  #Price {
+    width: 15%;
+  }
+  .checkout-item .remove-button {
+    width: 16%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .checkout-item .price {
+    width: 15%;
+  }
+}
