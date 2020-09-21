@@ -3,13 +3,13 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const config = {
-  apiKey: "AIzaSyDH4l97fJCvMVGn5SLwLHPosh4HmCNCBqQ",
-  authDomain: "shop-a-c7cac.firebaseapp.com",
-  databaseURL: "https://shop-a-c7cac.firebaseio.com",
-  projectId: "shop-a-c7cac",
-  storageBucket: "shop-a-c7cac.appspot.com",
-  messagingSenderId: "1049536219588",
-  appId: "1:1049536219588:web:f266a485aa3604bb007c91",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
