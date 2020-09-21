@@ -17,3 +17,11 @@
     }
   }
 }
+@media (max-width: 40rem) {
+  .collection-page {
+    .items {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

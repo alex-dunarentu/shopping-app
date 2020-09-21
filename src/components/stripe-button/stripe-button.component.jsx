@@ -1,6 +1,6 @@
 import React from "react";
 import StripeCheckout from "react-stripe-checkout";
-
+import "./stripe-button.styles.scss";
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
   const publishableKey =
@@ -12,6 +12,7 @@ const StripeCheckoutButton = ({ price }) => {
 
   return (
     <StripeCheckout
+      className="stripe"
       label="Pay Now"
       name="Crown Clothing Ltd."
       billingAddress

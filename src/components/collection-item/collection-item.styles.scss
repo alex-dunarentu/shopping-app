@@ -46,3 +46,12 @@
     }
   }
 }
+@media (max-width: 40rem) {
+  .collection-item {
+    width: 100%;
+
+    .custom-button {
+      min-width: 160px;
+    }
+  }
+}

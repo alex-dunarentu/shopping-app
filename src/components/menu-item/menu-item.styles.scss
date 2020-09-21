@@ -70,6 +70,9 @@
     min-width: 100%;
     margin: 1rem 0;
 
+    &.large {
+      height: 22rem;
+    }
     &:first-child {
       margin-right: 0;
     }
